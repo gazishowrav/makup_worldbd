@@ -1,0 +1,215 @@
+// header
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+   
+    .top-header {
+        position: relative;
+        z-index: 100;
+        background: #fff;
+        padding: 5px 0;
+        transform: translate(0, 0);
+        transition: transform 0.4s cubic-bezier(.17, .67, .54, .44);
+        .navbar-brand {
+            img {
+                height: 50px;
+            }
+        }
+        .navbar-nav {
+            .nav-item {
+                .nav-link {
+                    font-size: 13px;
+                    font-weight: 600;
+                    color: $dark;
+                    padding: 1rem;
+                    transition: all 0.3s ease;
+                    &:hover {
+                        color: $themered;
+                    }
+                    &.btn {
+                        padding: .5rem 1rem;
+                        font-size: 16px;
+                        background: #e3222a;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        .social-menu {
+            .nav-link {
+                font-size: 20px!important;
+            }
+        }
+    }
+    .main-header {
+        background: #FFD200;
+        transform: translate(0, 0);
+        transition: transform 0.4s cubic-bezier(.17, .67, .54, .44);
+        .btn-catagory {
+            position: relative;
+            background: #d02a31;
+            color: #DDDDDD;
+            width: 18rem;
+            text-align: left;
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            .categories-dropdown {
+                position: absolute;
+                top: 100%;
+                background: #D02A31;
+                width: 100%;
+                left: 0;
+                display: none;
+                .nav-item {
+                    .nav-link {
+                        position: relative;
+                        font-size: 13px;
+                        font-weight: 600;
+                        color: #FFFFFF;
+                        padding: 13px 13px 13px 50px;
+                        line-height: 18px;
+                        border-bottom: 1px solid #ce6262;
+                        &::before {
+                            content: "\F054";
+                            font-family: "Material Design Icons";
+                            font-weight: normal;
+                            right: auto;
+                            margin: 0 auto;
+                            position: absolute;
+                            left: 10px;
+                            text-align: center;
+                            bottom: 0;
+                            top: 10px;
+                            height: 20px;
+                            width: 20px;
+                        }
+                    }
+                }
+            }
+            &.show {
+                .categories-dropdown {
+                    display: block;
+                }
+            }
+            p {
+                font-size: 15px;
+                padding-left: 10px;
+                line-height: 18px;
+                span {
+                    color: #ffffff;
+                    font-weight: 700;
+                    letter-spacing: 0.05rem;
+                    font-size: 16px;
+                }
+            }
+        }
+        .search-box {
+            .input-group-prepend {
+                border: 0;
+                border-top-left-radius: 4px;
+                border-bottom-left-radius: 4px;
+                span {
+                    position: relative;
+                    border: 0;
+                    background: #fff;
+                    padding: 0.6rem;
+                    min-width: 10em;
+                    &.dropdown-toggle {
+                        &::after {
+                            position: absolute;
+                            right: 0;
+                        }
+                        &::before {
+                            content: "";
+                            width: 1px;
+                            height: 20px;
+                            background: #aaa;
+                            position: absolute;
+                            right: -5px;
+                            z-index: 100;
+                        }
+                    }
+                }
+            }
+            .form-control {
+                border: 0;
+                background: #fff;
+                padding: 0.6rem;
+                height: calc(2em + 0.75rem + 2px);
+                &:focus {
+                    box-shadow: none
+                }
+            }
+            .input-group-append {
+                border: 0;
+                border-top-right-radius: 4px;
+                border-bottom-right-radius: 4px;
+                background: #fff;
+                span {
+                    border: 0;
+                    background: $themered;
+                    font-size: 20px;
+                    padding: 0 .8rem;
+                    color: #fff;
+                }
+            }
+        }
+        .cart-box {
+            .account {
+                text-align: left;
+                line-height: 18px;
+                color: $dark;
+                text-align: left;
+                text-decoration: none;
+            }
+            .cart {
+                font-size: 25px;
+                color: $dark;
+                text-decoration: none;
+                .cart-count {
+                    position: relative;
+                    i {
+                        font-size: 35px;
+                    }
+                    .count-num {
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        margin-top: 0px;
+                        font-size: 14px;
+                        background:$themered;
+                        color: #fff;
+                        width: 18px;
+                        height: 18px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 50px;
+                    }
+                }
+                .cash {
+                    font-size: 14px;
+                    text-align: left;
+                    line-height: 18px;
+                    padding-left: 10px;
+                }
+            }
+        }
+    }
+    &.header-fixed {
+        .top-header {
+            transform: translate(0, -83px);
+            transition: transform 0.4s cubic-bezier(.17, .67, .54, .44);
+        }
+        .main-header {
+            transform: translate(0, -83px);
+            transition: transform 0.4s cubic-bezier(.17, .67, .54, .44);
+        }
+    }
+}
