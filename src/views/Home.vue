@@ -21,6 +21,7 @@
     </main>
     <!-- /main-->
     <Footer/>
+    <AddToCard/>
   </div>
 </template>
 
@@ -30,6 +31,7 @@ import NewArrivalVue from './element/NewArrival.vue'
 export default {
   name: 'Home',
   components: {
+    AddToCard: () => import(/* webpackChunkName: "AddToCard" */ "@/components/AddToCard"),
     Header: () => import(/* webpackChunkName: "Header" */ "@/components/Header"),
     Footer: () => import(/* webpackChunkName: "Footer" */ "@/components/Footer"),
     Slider: () => import(/* webpackChunkName: "Slider" */ "./element/Slider"),

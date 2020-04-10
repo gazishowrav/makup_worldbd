@@ -1,6 +1,6 @@
 <template>
     <!--Add to Cart-->
-	<div class="add-to-cart">
+	<div class="add-to-cart" v-on:click="isActive = !isActive" v-bind:class="{ cartShow: isActive }">
 		<!--Short cart-->
 		<div class="short-cart">
 			<div class="cart-btn">
@@ -22,43 +22,29 @@
 						<span class="mdi mdi-cart"></span>
 						<span>(12) Items</span>
 					</div>
-					<button type="button" class="close-cart">Close</button>
+					<button type="button" class="close-cart" v-on:click="isActive = !isActive" v-bind:class="{ cartShow: isActive }">Close</button>
 				</div>
 			</div>
 			<div class="cart-body">
 				<!--list item-->
-				<div class="list-item">
-					<div class="sl">1</div>
+				<div class="list-item" v-for="(product, index) in products" :key="index">
+					<div class="sl">{{product.id}}</div>
 					<div class="item-img">
-						<img src="./assets/img/new-arrival/7-264x347.jpg" alt="...">
+						<img :src="product.url" alt="...">
 					</div>
 					<div class="item-name">
-						Color Lipstick Makeup
-						<span>৳ 5 X 900</span>
+						{{product.name}}
+						<span>৳ {{product.quantity}} X {{product.price}}</span>
 					</div>
-					<div class="price">৳ 4500</div>
-					<div class="remove"><i class="mdi mdi-close"></i></div>
-				</div>
-				<!--/list item-->
-				<!--list item-->
-				<div class="list-item">
-					<div class="sl">1</div>
-					<div class="item-img">
-						<img src="./assets/img/new-arrival/7-264x347.jpg" alt="...">
-					</div>
-					<div class="item-name">
-						Color Lipstick Makeup
-						<span>৳ 5 X 900</span>
-					</div>
-					<div class="price">৳ 4500</div>
+					<div class="price">৳ {{product.total}}</div>
 					<div class="remove"><i class="mdi mdi-close"></i></div>
 				</div>
 				<!--/list item-->
 			</div>
 			<div class="cart-footer">
-				<a href="cart.html">
+				<a href="#">
 					<span class="btn btn-warning rounded-0">Place your order</span>
-					<span class="btn btn-dark rounded-0">৳ 7980.00</span>
+					<span class="btn btn-dark rounded-0">৳ 7500.00</span>
 				</a>
 			</div>
 		</div>
@@ -69,10 +55,43 @@
 
 <script>
 export default {
-
+	data() {
+	    return {
+	    	isActive: false,
+	        products: [
+	            {
+	            	id: 1,
+	                url: require('../assets/img/products/1-264x347.jpg'),
+	                name: "Accessories",
+	                quantity: "5",
+	                price: '900',
+	                total: '4500'
+	            },
+	            {
+	            	id: 2,
+	                url: require('../assets/img/products/8-264x347.jpg'),
+	                name: "Induction",
+	                quantity: "3",
+	                price: '1000',
+	                total: '3000'
+	            }
+	        ]
+	    }
+	}
 }
 </script>
 
 <style>
-
+	.add-to-cart .short-cart {
+		display: block;
+	}
+	.add-to-cart.cartShow .short-cart {
+		display: none;
+	}
+	.add-to-cart .details-cart {
+		display: none;
+	}
+	.add-to-cart.cartShow .details-cart {
+		display: block;
+	}
 </style>

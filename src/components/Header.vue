@@ -17,8 +17,65 @@
 				      <li class="nav-item active">
 				        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
 				      </li>
-				      <li class="nav-item">
-				        <a class="nav-link" href="products.html">Current Offers</a>
+				      <li class="nav-item dropdown">
+				        <a class="nav-link dropdown-toggle" href="products.html" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Current Offers</a>
+				        <!--Dropdown-->
+				        <div class="dropdown-menu megamenu-lg" aria-labelledby="dropdownMenuButton">
+				            <div class="row">
+				            	<div class="col-lg-4">
+				            		<h4>Top 10</h4>
+				            		<ul class="nav flex-column">
+				            			<li class="nav-item">
+				            				<a href="#" class="nav-link">Bags</a>
+				            			</li>
+				            			<li class="nav-item">
+				            				<a href="#" class="nav-link">Bags</a>
+				            			</li>
+				            			<li class="nav-item">
+				            				<a href="#" class="nav-link">Bags</a>
+				            			</li>
+				            			<li class="nav-item">
+				            				<a href="#" class="nav-link">Bags</a>
+				            			</li>
+				            		</ul>
+				            	</div>
+				            	<div class="col-lg-4">
+				            		<h4>Makup</h4>
+				            		<ul class="nav flex-column">
+				            			<li class="nav-item">
+				            				<a href="#" class="nav-link">Face Makup</a>
+				            			</li>
+				            			<li class="nav-item">
+				            				<a href="#" class="nav-link">Eye Makup</a>
+				            			</li>
+				            			<li class="nav-item">
+				            				<a href="#" class="nav-link">Lip Makup</a>
+				            			</li>
+				            			<li class="nav-item">
+				            				<a href="#" class="nav-link">Nail</a>
+				            			</li>
+				            		</ul>
+				            	</div>
+				            	<div class="col-lg-4">
+				            		<h4>Skin Care</h4>
+				            		<ul class="nav flex-column">
+				            			<li class="nav-item">
+				            				<a href="#" class="nav-link">Face Care</a>
+				            			</li>
+				            			<li class="nav-item">
+				            				<a href="#" class="nav-link">Eye Care</a>
+				            			</li>
+				            			<li class="nav-item">
+				            				<a href="#" class="nav-link">Baby Care</a>
+				            			</li>
+				            			<li class="nav-item">
+				            				<a href="#" class="nav-link">Lip Gel & Mask</a>
+				            			</li>
+				            		</ul>
+				            	</div>
+				            </div>
+				          </div>
+				        <!--/Dropdown-->
 				      </li>
 				      <li class="nav-item">
 				        <a class="nav-link" href="products.html">All Categories</a>
@@ -38,8 +95,65 @@
 				      <li class="nav-item">
 				        <a class="nav-link" href="products.html">Pre-Order</a>
 				      </li>
-				      <li class="nav-item">
-				        <a class="nav-link" href="products.html">Suggest Products</a>
+				      <li class="nav-item dropdown">
+				        <a class="nav-link dropdown-toggle" href="products.html" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Suggest Products</a>
+				        <!--Dropdown-->
+				        <div class="dropdown-menu megamenu-lg" aria-labelledby="dropdownMenuButton">
+				            <div class="row">
+				            	<div class="col-lg-4">
+				            		<h4>Top 10</h4>
+				            		<ul class="nav flex-column">
+				            			<li class="nav-item">
+				            				<a href="#" class="nav-link">Bags</a>
+				            			</li>
+				            			<li class="nav-item">
+				            				<a href="#" class="nav-link">Bags</a>
+				            			</li>
+				            			<li class="nav-item">
+				            				<a href="#" class="nav-link">Bags</a>
+				            			</li>
+				            			<li class="nav-item">
+				            				<a href="#" class="nav-link">Bags</a>
+				            			</li>
+				            		</ul>
+				            	</div>
+				            	<div class="col-lg-4">
+				            		<h4>Makup</h4>
+				            		<ul class="nav flex-column">
+				            			<li class="nav-item">
+				            				<a href="#" class="nav-link">Face Makup</a>
+				            			</li>
+				            			<li class="nav-item">
+				            				<a href="#" class="nav-link">Eye Makup</a>
+				            			</li>
+				            			<li class="nav-item">
+				            				<a href="#" class="nav-link">Lip Makup</a>
+				            			</li>
+				            			<li class="nav-item">
+				            				<a href="#" class="nav-link">Nail</a>
+				            			</li>
+				            		</ul>
+				            	</div>
+				            	<div class="col-lg-4">
+				            		<h4>Skin Care</h4>
+				            		<ul class="nav flex-column">
+				            			<li class="nav-item">
+				            				<a href="#" class="nav-link">Face Care</a>
+				            			</li>
+				            			<li class="nav-item">
+				            				<a href="#" class="nav-link">Eye Care</a>
+				            			</li>
+				            			<li class="nav-item">
+				            				<a href="#" class="nav-link">Baby Care</a>
+				            			</li>
+				            			<li class="nav-item">
+				            				<a href="#" class="nav-link">Lip Gel & Mask</a>
+				            			</li>
+				            		</ul>
+				            	</div>
+				            </div>
+				          </div>
+				        <!--/Dropdown-->
 				      </li>
 				    </ul>
 				    <ul class="navbar-nav ml-auto social-menu">
@@ -63,7 +177,7 @@
 			<div class="container-wrapper">
 				<div class="row align-items-center">
 					<div class="col-lg-3">
-						<div class="btn-catagory">
+						<div class="btn-catagory" v-on:click="isActive = !isActive" v-bind:class="{ show: isActive }">
 							<span class="btn btn-light shadow-none"><i class="mdi mdi-format-list-bulleted"></i></span>
 							<p class="mb-0">Shop By <br>
 							<span>Categories</span></p>
@@ -153,17 +267,18 @@
 export default {
     data() {
         return {
-            logo: require('../assets/img/makeup-world-bd-logo.jpg')
+            logo: require('../assets/img/makeup-world-bd-logo.jpg'),
+            isActive: false
         }
 	},
 	methods: {
 		handleSCroll(event) {
-		let header = document.querySelector(".header");
-		if (window.scrollY > 75 && !header.className.includes("header-fixed")) {
-			header.classList.add("header-fixed");
-		} else if (window.scrollY < 75) {
-			header.classList.remove("header-fixed");
-		}
+			let header = document.querySelector(".header");
+			if (window.scrollY > 75 && !header.className.includes("header-fixed")) {
+				header.classList.add("header-fixed");
+			} else if (window.scrollY < 75) {
+				header.classList.remove("header-fixed");
+			}
 		}
 	},
 	created() {
