@@ -4,7 +4,11 @@
         <div class="shop-by-catagory mb-3">
             <div class="shop-by-catagory-body">
                 <h3>Shop By Department <span>Choose What You Looking For</span></h3>
-                <carousel class="depertment" :autoplay="true" :dots="false" :items="5">
+                <carousel class="depertment" :autoplay="false"
+          :dots="false"
+          :nav="false"
+          :margin="15"
+          :responsive="{0:{items:1},600:{items:2}}">
                     <div class="item" v-for="(item, index) in depertment" :key="index">
                         <a href="products.html" class="card">
                             <div class="card-header">
