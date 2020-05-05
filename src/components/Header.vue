@@ -14,158 +14,63 @@
 
 				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 				    <ul class="navbar-nav m-auto">
-				      <li class="nav-item active">
-				        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-				      </li>
-				      <li class="nav-item dropdown">
-				        <a class="nav-link dropdown-toggle" href="products.html" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Current Offers</a>
-				        <!--Dropdown-->
-				        <div class="dropdown-menu megamenu-lg" aria-labelledby="dropdownMenuButton">
-				            <div class="row">
-				            	<div class="col-lg-4">
-				            		<h4>Top 10</h4>
-				            		<ul class="nav flex-column">
-				            			<li class="nav-item">
-				            				<a href="#" class="nav-link">Bags</a>
-				            			</li>
-				            			<li class="nav-item">
-				            				<a href="#" class="nav-link">Bags</a>
-				            			</li>
-				            			<li class="nav-item">
-				            				<a href="#" class="nav-link">Bags</a>
-				            			</li>
-				            			<li class="nav-item">
-				            				<a href="#" class="nav-link">Bags</a>
-				            			</li>
-				            		</ul>
-				            	</div>
-				            	<div class="col-lg-4">
-				            		<h4>Makup</h4>
-				            		<ul class="nav flex-column">
-				            			<li class="nav-item">
-				            				<a href="#" class="nav-link">Face Makup</a>
-				            			</li>
-				            			<li class="nav-item">
-				            				<a href="#" class="nav-link">Eye Makup</a>
-				            			</li>
-				            			<li class="nav-item">
-				            				<a href="#" class="nav-link">Lip Makup</a>
-				            			</li>
-				            			<li class="nav-item">
-				            				<a href="#" class="nav-link">Nail</a>
-				            			</li>
-				            		</ul>
-				            	</div>
-				            	<div class="col-lg-4">
-				            		<h4>Skin Care</h4>
-				            		<ul class="nav flex-column">
-				            			<li class="nav-item">
-				            				<a href="#" class="nav-link">Face Care</a>
-				            			</li>
-				            			<li class="nav-item">
-				            				<a href="#" class="nav-link">Eye Care</a>
-				            			</li>
-				            			<li class="nav-item">
-				            				<a href="#" class="nav-link">Baby Care</a>
-				            			</li>
-				            			<li class="nav-item">
-				            				<a href="#" class="nav-link">Lip Gel & Mask</a>
-				            			</li>
-				            		</ul>
-				            	</div>
-				            </div>
-				          </div>
-				        <!--/Dropdown-->
-				      </li>
-				      <li class="nav-item">
-				        <a class="nav-link" href="products.html">All Categories</a>
-				      </li>
-				      <li class="nav-item">
-				        <a class="nav-link" href="products.html">Whitening</a>
-				      </li>
-				      <li class="nav-item">
-				        <a class="nav-link" href="products.html">Slimming</a>
-				      </li>
-				      <li class="nav-item">
-				        <a class="nav-link" href="products.html">Beauty Tips</a>
-				      </li>
-				      <li class="nav-item">
-				        <a class="nav-link" href="products.html">Contact</a>
-				      </li>
-				      <li class="nav-item">
-				        <a class="nav-link" href="products.html">Pre-Order</a>
-				      </li>
-				      <li class="nav-item dropdown">
-				        <a class="nav-link dropdown-toggle" href="products.html" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Suggest Products</a>
-				        <!--Dropdown-->
-				        <div class="dropdown-menu megamenu-lg" aria-labelledby="dropdownMenuButton">
-				            <div class="row">
-				            	<div class="col-lg-4">
-				            		<h4>Top 10</h4>
-				            		<ul class="nav flex-column">
-				            			<li class="nav-item">
-				            				<a href="#" class="nav-link">Bags</a>
-				            			</li>
-				            			<li class="nav-item">
-				            				<a href="#" class="nav-link">Bags</a>
-				            			</li>
-				            			<li class="nav-item">
-				            				<a href="#" class="nav-link">Bags</a>
-				            			</li>
-				            			<li class="nav-item">
-				            				<a href="#" class="nav-link">Bags</a>
-				            			</li>
-				            		</ul>
-				            	</div>
-				            	<div class="col-lg-4">
-				            		<h4>Makup</h4>
-				            		<ul class="nav flex-column">
-				            			<li class="nav-item">
-				            				<a href="#" class="nav-link">Face Makup</a>
-				            			</li>
-				            			<li class="nav-item">
-				            				<a href="#" class="nav-link">Eye Makup</a>
-				            			</li>
-				            			<li class="nav-item">
-				            				<a href="#" class="nav-link">Lip Makup</a>
-				            			</li>
-				            			<li class="nav-item">
-				            				<a href="#" class="nav-link">Nail</a>
-				            			</li>
-				            		</ul>
-				            	</div>
-				            	<div class="col-lg-4">
-				            		<h4>Skin Care</h4>
-				            		<ul class="nav flex-column">
-				            			<li class="nav-item">
-				            				<a href="#" class="nav-link">Face Care</a>
-				            			</li>
-				            			<li class="nav-item">
-				            				<a href="#" class="nav-link">Eye Care</a>
-				            			</li>
-				            			<li class="nav-item">
-				            				<a href="#" class="nav-link">Baby Care</a>
-				            			</li>
-				            			<li class="nav-item">
-				            				<a href="#" class="nav-link">Lip Gel & Mask</a>
-				            			</li>
-				            		</ul>
-				            	</div>
-				            </div>
-				          </div>
-				        <!--/Dropdown-->
-				      </li>
-				    </ul>
-				    <ul class="navbar-nav ml-auto social-menu">
-				      <li class="nav-item">
-				        <a href="#" class="nav-link"><i class="mdi mdi-facebook"></i></a>
-				      </li>
-				      <li class="nav-item">
-				        <a href="#" class="nav-link"><i class="mdi mdi-instagram"></i></a>
-				      </li>
-				      <li class="nav-item">
-				        <a href="#" class="nav-link"><i class="mdi mdi-youtube"></i></a>
-				      </li>
+				    	<li class="nav-item active">
+					        <router-link class="nav-link" to="/">Home <span class="sr-only">(current)</span></router-link>
+				      	</li>
+				      <slot v-for="item in makeup">
+				      	<slot v-if="item.position==0">
+					      	<li class="nav-item dropdown">
+					        	<a class="nav-link dropdown-toggle" href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{item.name}}</a>
+								<!--Dropdown-->
+					        	<div class="dropdown-menu megamenu-lg" aria-labelledby="dropdownMenuButton">
+						            <div class="row">
+						            	<div class="col-lg-4" v-for="megamenu in item.megamenu" :key="megamenu">
+	                          				<h4 class="menu-head">
+	                          				    <router-link to="/">{{megamenu.name}}</router-link>
+	                          				</h4>
+	                          				<ul class="nav flex-column">
+	                          					<li class="nav-item">
+	                          						<a href="#" class="nav-link">{{megamenu.name}}</a>
+	                          					</li>
+	                          				</ul>
+	                          			</div>
+						            </div>
+						        </div>
+					        </li>
+					    </slot>
+					    <!-- <slot v-else>
+					    	<li class="nav-item">
+					    	  <router-link :to="/">{{item.name}}</router-link>
+					    	</li>
+					    </slot> -->
+				      </slot>
+				      <slot v-for="item in kachabazar">
+				      	<slot v-if="item.position==0">
+					      	<li class="nav-item dropdown">
+					        	<a class="nav-link dropdown-toggle" href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{item.name}}</a>
+								<!--Dropdown-->
+					        	<div class="dropdown-menu megamenu-lg" aria-labelledby="dropdownMenuButton">
+						            <div class="row">
+						            	<div class="col-lg-4" v-for="megamenu in item.megamenu" :key="megamenu">
+	                          				<h4 class="menu-head">
+	                          				    <router-link to="/">{{megamenu.name}}</router-link>
+	                          				</h4>
+	                          				<ul class="nav flex-column">
+	                          					<li class="nav-item">
+	                          						<a href="#" class="nav-link">{{megamenu.name}}</a>
+	                          					</li>
+	                          				</ul>
+	                          			</div>
+						            </div>
+						        </div>
+					        </li>
+					    </slot>
+					    <!-- <slot v-else>
+					    	<li class="nav-item">
+					    	  <router-link :to="/">{{item.name}}</router-link>
+					    	</li>
+					    </slot> -->
+				      </slot>
 				    </ul>
 				  </div>
 				</nav>
@@ -268,7 +173,344 @@ export default {
     data() {
         return {
             logo: require('../assets/img/makeup-world-bd-logo.jpg'),
-            isActive: false
+            isActive: false,
+            makeup: [
+            	  {
+            	    "id": 5,
+            	    "shop_id": 1,
+            	    "name": "Category Level One",
+            	    "position": 1,
+            	    "parent_id": 5,
+            	    "category_url": "category_one",
+            	    "meta_title": "category_one",
+            	    "meta_key": "category_one",
+            	    "meta_details": "category_one",
+            	    "status": 1,
+            	    "created_at": "2020-04-26 00:25:07",
+            	    "updated_at": "2020-04-26 00:25:07"
+            	  },
+            	  {
+            	    "id": 6,
+            	    "shop_id": 1,
+            	    "name": "Category Level Two",
+            	    "position": 2,
+            	    "parent_id": 6,
+            	    "category_url": "category_two",
+            	    "meta_title": "Category Title",
+            	    "meta_key": "Category Key",
+            	    "meta_details": "Category Details",
+            	    "status": 1,
+            	    "created_at": "2020-04-26 00:25:38",
+            	    "updated_at": "2020-04-26 00:25:38"
+            	  },
+            	  {
+            	    "id": 13,
+            	    "shop_id": 1,
+            	    "name": "Category Level Three",
+            	    "position": 2,
+            	    "parent_id": 6,
+            	    "category_url": "category_three",
+            	    "meta_title": "category_three",
+            	    "meta_key": "category_three",
+            	    "meta_details": "category_three",
+            	    "status": 1,
+            	    "created_at": "2020-04-08 14:33:19",
+            	    "updated_at": "2020-04-08 14:33:19"
+            	  },
+            	  {
+            	    "id": 16,
+            	    "shop_id": 1,
+            	    "name": "CURRENT OFFER",
+            	    "position": 0,
+            	    "parent_id": 16,
+            	    "category_url": "CURRENT_OFFER",
+            	    "meta_title": "CURRENT OFFER",
+            	    "meta_key": "CURRENT OFFER",
+            	    "meta_details": "CURRENT OFFER",
+            	    "status": 1,
+            	    "created_at": "2020-05-05 11:09:40",
+            	    "updated_at": "2020-05-05 11:09:40"
+            	  },
+            	  {
+            	    "id": 18,
+            	    "shop_id": 1,
+            	    "name": "Category Level Three",
+            	    "position": 2,
+            	    "parent_id": 6,
+            	    "category_url": "category_threeaaaaaaaaa",
+            	    "meta_title": "category_threeaaaaa",
+            	    "meta_key": "category_threeaaaaaaaaa",
+            	    "meta_details": "category_threeaaaaaaaaaa",
+            	    "status": 1,
+            	    "created_at": "2020-03-08 03:56:05",
+            	    "updated_at": "2020-03-08 06:44:29"
+            	  },
+            	  {
+            	    "id": 21,
+            	    "shop_id": 1,
+            	    "name": "50% Off",
+            	    "position": 1,
+            	    "parent_id": 16,
+            	    "category_url": "50%_Off",
+            	    "meta_title": "50% Off",
+            	    "meta_key": "50% Off",
+            	    "meta_details": "50% Off",
+            	    "status": 1,
+            	    "created_at": "2020-05-05 11:18:04",
+            	    "updated_at": "2020-05-05 11:18:04"
+            	  },
+            	  {
+            	    "id": 27,
+            	    "shop_id": 1,
+            	    "name": "Buy 1 Get 1 Free",
+            	    "position": 1,
+            	    "parent_id": 16,
+            	    "category_url": "Buy_1_Get_1_Free_nnnn",
+            	    "meta_title": "Buy 1 Get 1 Free",
+            	    "meta_key": "Buy 1 Get 1 Free",
+            	    "meta_details": "Buy 1 Get 1 Free",
+            	    "status": 1,
+            	    "created_at": "2020-05-05 11:21:16",
+            	    "updated_at": "2020-05-05 11:21:16"
+            	  }
+            ],
+            kachabazar: [
+              {
+                "id": 1,
+                "shop_id": 1,
+                "name": "Ramadan",
+                "position": 0,
+                "parent_id": null,
+                "category_url": "Ramadan",
+                "meta_title": "Ramadan",
+                "meta_key": "Ramadan",
+                "meta_details": "Ramadan",
+                "status": 1,
+                "created_at": "2020-04-29 17:27:55",
+                "updated_at": "2020-04-29 17:27:55",
+                "category_image": {
+                  "id": 11,
+                  "shop_id": 1,
+                  "products_id": 1,
+                  "name": "http://localhost/makeup/include/storage/app/public/kachabazar/2020-04-29-5ea9b91b0e29b.jpg",
+                  "type": 4,
+                  "height": 460,
+                  "width": 680,
+                  "status": 1,
+                  "created_at": "2020-04-29 17:27:55",
+                  "updated_at": "2020-04-29 17:27:55"
+                }
+              },
+              {
+                "id": 2,
+                "shop_id": 1,
+                "name": "SODAYKORI",
+                "position": 0,
+                "parent_id": null,
+                "category_url": "SODAYKORI",
+                "meta_title": "SODAYKORI",
+                "meta_key": "SODAYKORI",
+                "meta_details": "SODAYKORI",
+                "status": 1,
+                "created_at": "2020-05-05 10:31:55",
+                "updated_at": "2020-05-05 10:31:55",
+                "category_image": {
+                  "id": 12,
+                  "shop_id": 1,
+                  "products_id": 2,
+                  "name": "http://localhost/makeup/include/storage/app/public/kachabazar/2020-04-29-5ea9b9fc4c356.jpg",
+                  "type": 4,
+                  "height": 460,
+                  "width": 680,
+                  "status": 1,
+                  "created_at": "2020-04-29 17:31:40",
+                  "updated_at": "2020-04-29 17:31:40"
+                }
+              },
+              {
+                "id": 3,
+                "shop_id": 1,
+                "name": "Fruit",
+                "position": 1,
+                "parent_id": 2,
+                "category_url": "Fruit",
+                "meta_title": "Fruit",
+                "meta_key": "Fruit",
+                "meta_details": "Fruit",
+                "status": 1,
+                "created_at": "2020-04-29 17:34:32",
+                "updated_at": "2020-04-29 17:34:32",
+                "category_image": {
+                  "id": 13,
+                  "shop_id": 1,
+                  "products_id": 3,
+                  "name": "http://localhost/makeup/include/storage/app/public/kachabazar/2020-04-29-5ea9baa86fdef.jpg",
+                  "type": 4,
+                  "height": 460,
+                  "width": 680,
+                  "status": 1,
+                  "created_at": "2020-04-29 17:34:32",
+                  "updated_at": "2020-04-29 17:34:32"
+                }
+              },
+              {
+                "id": 4,
+                "shop_id": 1,
+                "name": "Fresh Fruits",
+                "position": 2,
+                "parent_id": 3,
+                "category_url": "Fresh Fruits",
+                "meta_title": "Fresh Fruits",
+                "meta_key": "Fresh Fruits",
+                "meta_details": "Fresh Fruits",
+                "status": 1,
+                "created_at": "2020-04-29 17:35:12",
+                "updated_at": "2020-04-29 17:35:12",
+                "category_image": {
+                  "id": 14,
+                  "shop_id": 1,
+                  "products_id": 4,
+                  "name": "http://localhost/makeup/include/storage/app/public/kachabazar/2020-04-29-5ea9bad0a3f3d.jpg",
+                  "type": 4,
+                  "height": 460,
+                  "width": 680,
+                  "status": 1,
+                  "created_at": "2020-04-29 17:35:12",
+                  "updated_at": "2020-04-29 17:35:12"
+                }
+              },
+              {
+                "id": 5,
+                "shop_id": 1,
+                "name": "Fruits and Vegetables",
+                "position": 1,
+                "parent_id": 2,
+                "category_url": "Fruits_and_Vegetables",
+                "meta_title": "Fruits and Vegetables",
+                "meta_key": "Fruits and Vegetables",
+                "meta_details": "Fruits and Vegetables",
+                "status": 1,
+                "created_at": "2020-05-05 15:12:01",
+                "updated_at": "2020-05-05 15:12:01",
+                "category_image": {
+                  "id": 18,
+                  "shop_id": 1,
+                  "products_id": 5,
+                  "name": "https://mwbddemo.com/admin/include/storage/app/public/kachabazar/2020-05-05-5eb0edf3bc0c0.jpg",
+                  "type": 4,
+                  "height": 460,
+                  "width": 680,
+                  "status": 1,
+                  "created_at": "2020-05-05 10:39:15",
+                  "updated_at": "2020-05-05 10:39:15"
+                }
+              },
+              {
+                "id": 6,
+                "shop_id": 1,
+                "name": "Meat and Fish",
+                "position": 1,
+                "parent_id": 2,
+                "category_url": "Meat_and_Fish",
+                "meta_title": "Meat and Fish",
+                "meta_key": "Meat and Fish",
+                "meta_details": "Meat and Fish",
+                "status": 1,
+                "created_at": "2020-05-05 10:46:37",
+                "updated_at": "2020-05-05 10:46:37",
+                "category_image": {
+                  "id": 19,
+                  "shop_id": 1,
+                  "products_id": 6,
+                  "name": "https://mwbddemo.com/admin/include/storage/app/public/kachabazar/2020-05-05-5eb0efad8fe20.jpg",
+                  "type": 4,
+                  "height": 460,
+                  "width": 680,
+                  "status": 1,
+                  "created_at": "2020-05-05 10:46:37",
+                  "updated_at": "2020-05-05 10:46:37"
+                }
+              },
+              {
+                "id": 8,
+                "shop_id": 1,
+                "name": "Cooking",
+                "position": 1,
+                "parent_id": 2,
+                "category_url": "Cooking",
+                "meta_title": "Cooking",
+                "meta_key": "Cooking",
+                "meta_details": "Cooking",
+                "status": 1,
+                "created_at": "2020-05-05 15:13:52",
+                "updated_at": "2020-05-05 15:13:52",
+                "category_image": {
+                  "id": 21,
+                  "shop_id": 1,
+                  "products_id": 8,
+                  "name": "https://mwbddemo.com/admin/include/storage/app/public/kachabazar/2020-05-05-5eb12e5062bdc.jpeg",
+                  "type": 4,
+                  "height": 460,
+                  "width": 680,
+                  "status": 1,
+                  "created_at": "2020-05-05 15:13:52",
+                  "updated_at": "2020-05-05 15:13:52"
+                }
+              },
+              {
+                "id": 9,
+                "shop_id": 1,
+                "name": "Rice",
+                "position": 2,
+                "parent_id": 8,
+                "category_url": "Rice",
+                "meta_title": "Rice",
+                "meta_key": "Rice",
+                "meta_details": "Rice",
+                "status": 1,
+                "created_at": "2020-05-05 15:18:52",
+                "updated_at": "2020-05-05 15:18:52",
+                "category_image": {
+                  "id": 22,
+                  "shop_id": 1,
+                  "products_id": 9,
+                  "name": "https://mwbddemo.com/admin/include/storage/app/public/kachabazar/2020-05-05-5eb12f7cf3454.jpeg",
+                  "type": 4,
+                  "height": 460,
+                  "width": 680,
+                  "status": 1,
+                  "created_at": "2020-05-05 15:18:52",
+                  "updated_at": "2020-05-05 15:18:53"
+                }
+              },
+              {
+                "id": 10,
+                "shop_id": 1,
+                "name": "Oil",
+                "position": 2,
+                "parent_id": 8,
+                "category_url": "Oil",
+                "meta_title": "Oil",
+                "meta_key": "Oil",
+                "meta_details": "Oil",
+                "status": 1,
+                "created_at": "2020-05-05 15:21:05",
+                "updated_at": "2020-05-05 15:21:05",
+                "category_image": {
+                  "id": 23,
+                  "shop_id": 1,
+                  "products_id": 10,
+                  "name": "https://mwbddemo.com/admin/include/storage/app/public/kachabazar/2020-05-05-5eb13001cce82.jpeg",
+                  "type": 4,
+                  "height": 460,
+                  "width": 680,
+                  "status": 1,
+                  "created_at": "2020-05-05 15:21:05",
+                  "updated_at": "2020-05-05 15:21:05"
+                }
+              }
+            ]
+                
         }
 	},
 	methods: {
